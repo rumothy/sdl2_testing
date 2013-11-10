@@ -8,7 +8,7 @@ int wmain(int argc, char* args[])
 {
 	if (SDL_Init(SDL_INIT_EVERYTHING) >= 0)
 	{
-		g_pWindow = SDL_CreateWindow("Chapter 1: Setting up SDL",
+		g_pWindow = SDL_CreateWindow("My SDLWindow",
 			SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
 			640, 480,
 			SDL_WINDOW_SHOWN);
